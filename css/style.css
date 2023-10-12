@@ -1,5 +1,4 @@
 
-
 /*estilo general y animacion de boton de descarga*/
 .Btnsis {
     width: 50px;
@@ -252,9 +251,23 @@ h1, h5{
 }
 
 
+
+
+
+
+
+
 /*ajustes para pantallas pequeñas*/
 
 @media (width < 1000px){
+    
+    .inicio h1 {
+        font-size: 3rem;
+    }
+
+    .inicio h2, .inicio h4{
+        font-size: 1rem;
+    }
 
     .cabecera{
        text-align: end;
@@ -268,12 +281,20 @@ h1, h5{
 
     .sobremi{
         display: flex;
-        left: 150px;
+        left: 176px;
         flex-direction: column;
+    }
+    .sobremi div{
         font-size: 1rem;
     }
 
     .sobremi li{
         width: 350px;
     }
+    
+    .padreForm, .social, .avatar{
+        position: relative;
+        left: 80px;
+    }
+
 }
