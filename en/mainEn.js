@@ -30,7 +30,7 @@ const arrayProyectos = [
    },
    {nombre: "Colegio Fabini",
    link: "https://www.behance.net/gallery/181641233/Colegio-Fabini",
-   descripcion: " Children's school, informative website",
+   descripcion: " Children's school, informative website + contact form",
    tecnologia1: "#Wordpress",
    tecnologia2: "#Elementor",
    tecnologia3: "Template edition",
@@ -38,7 +38,7 @@ const arrayProyectos = [
    },
    {nombre: "Jardin maternal Fabini",
    link: "https://www.behance.net/gallery/181641519/Jardin-maternal-Fabini",
-   descripcion: "kindergarden, informative website",
+   descripcion: "kindergarden, informative website + contact form",
    tecnologia1: "#Wordpress",
    tecnologia2: "#Elementor",
    tecnologia3: "Template edition",
@@ -51,6 +51,14 @@ const arrayProyectos = [
    tecnologia2: "#HTML",
    tecnologia3: "#CSS",
    portada: "../src/img/iniciodiscos.png" 
+   },
+   {nombre: "Clothing store",
+   link: "https://e-commerce-lotuyo.vercel.app/",
+   descripcion: "Final project for the React course at Coderhouse",
+   tecnologia1: "#JavaScript",
+   tecnologia2: "#ReactJs",
+   tecnologia3: "#Firebase",
+   portada: "../src/img/lotuyo.png" 
    }
 ]
 

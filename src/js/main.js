@@ -46,11 +46,19 @@ const arrayProyectos = [
    },
    {nombre: "Pagina de productos + carrito",
    link: "https://www.behance.net/gallery/181645305/Pagina-de-productos",
-   descripcion: "proyecto final para el curso de JavaScript de Coderhouse",
+   descripcion: "proyecto final para el curso de JavaScript en Coderhouse",
    tecnologia1: "#JavaScript",
    tecnologia2: "#HTML",
    tecnologia3: "#CSS",
    portada: "./src/img/iniciodiscos.png" 
+   },
+   {nombre: "Tienda de ropa",
+   link: "https://e-commerce-lotuyo.vercel.app/",
+   descripcion: "proyecto final para el curso de React en Coderhouse",
+   tecnologia1: "#JavaScript",
+   tecnologia2: "#ReactJs",
+   tecnologia3: "#Firebase",
+   portada: "./src/img/lotuyo.png" 
    }
 ]
 
